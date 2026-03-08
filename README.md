@@ -17,7 +17,7 @@ A organização do repositório segue a estrutura necessária para a gestão de 
 ```text
 Cardio-IA/
 │
-├── assets/                       # Subpasta de ativos (conforme enunciado)
+├── docs/                       # Subpasta de ativos (conforme enunciado)
 │   ├── diretriz_hipertensao.txt  # Artigo textual 1 (NLP)
 │   └── protocolo_arritmia.txt    # Artigo textual 2 (NLP)
 │
@@ -39,14 +39,14 @@ Utilizamos dados clínicos para identificar fatores de risco que antecedem event
 ---
 
 ## 📑 2. Dados Textuais (NLP)
-Coleta de literatura técnica para suporte à decisão e análise de sintomas.
+Simulação de prontuários médicos e relatos de pacientes para estruturação de dados não estruturados.
 
-* **Arquivos:** Disponíveis na pasta `/assets` deste repositório.
-* **Fontes:** Artigos científicos e diretrizes de saúde cardiovascular (Ex: SciELO/SUS).
+* **Arquivos:** Disponíveis na pasta `/docss` deste repositório.
+* **Fontes:** Dados fictícios criados pelo grupo para simular o fluxo de triagem hospitalar.
 * **Análises de NLP:**
-    * **Extração de Entidades Nomeadas (NER):** Para identificar automaticamente sintomas citados em prontuários.
-    * **Classificação de Tópicos:** Para organizar grandes volumes de literatura médica por patologia.
-* **Justificativa para IA:** O processamento de linguagem natural permite transformar textos não estruturados em insights clínicos acionáveis.
+    * **Extração de Entidades Nomeadas (NER):** Para identificar automaticamente sintomas (ex: palpitação, tontura) e histórico de comorbidades nos relatos.
+    * **Análise de Sentimento e Urgência:** Para classificar a prioridade do atendimento com base na gravidade dos sintomas descritos.
+* **Justificativa para IA:** O processamento de linguagem natural permite transformar relatos informais em dados estruturados, agilizando o preenchimento de prontuários e a triagem prioritária na rede de saúde.
 
 ---
 
