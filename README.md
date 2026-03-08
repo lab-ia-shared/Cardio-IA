@@ -21,7 +21,8 @@ Cardio-IA/
 │   ├── diretriz_hipertensao.txt  # Artigo textual 1 (NLP)
 │   └── protocolo_arritmia.txt    # Artigo textual 2 (NLP)
 │
-└── README.md                     # Documentação principal e justificativas´´´
+└── README.md                     # Documentação principal e justificativas
+````
 
 ---
 
