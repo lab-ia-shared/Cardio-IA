@@ -54,8 +54,8 @@ Coleta de literatura técnica para suporte à decisão e análise de sintomas.
 Análise de exames de imagem para detecção de anomalias estruturais e elétricas.
 
 * **Dataset:** [ECG Images dataset of Cardiac and Abnormal Beats]
-* **Link para as Imagens (Mínimo 100):** [COLE_AQUI_O_LINK_DO_SEU_DRIVE]
-* **Tipo de Exame:** Eletrocardiograma (ECG).
+* **Link para as Imagens (Mínimo 100):** [COLE_AQUI_O_LINK_DO_DRIVE]
+* **Tipo de Exame:** Eletrocardiograma (ECG), Raio-X.
 * **Aplicações de VC:**
     * **Detecção de Padrões:** Identificação visual de arritmias (como Fibrilação Atrial) através do formato das ondas.
     * **Reconhecimento de Anomalias:** Filtros para distinguir batimentos normais de batimentos ectópicos.
@@ -66,5 +66,3 @@ Análise de exames de imagem para detecção de anomalias estruturais e elétric
 ## 🛡️ Governança e Ética
 Este projeto segue os princípios de governança de dados, garantindo que as fontes sejam citadas e os dados utilizados (reais ou simulados) sirvam estritamente para fins acadêmicos, visando a redução de vieses em diagnósticos automatizados.
 ---
-**Integrantes - Grupo 56:**
-* Nícolas Antonio Silva Araujo
