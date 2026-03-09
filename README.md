@@ -27,26 +27,47 @@ Cardio-IA/
 ---
 
 ## 🔢 1. Dados Numéricos (IoT e Predição)
-Utilizamos dados clínicos para identificar fatores de risco que antecedem eventos críticos.
+Utilizamos dados clínicos para identificar fatores de risco que antecedem eventos cardiovasculares, especialmente relacionados à hipertensão arterial.
 
-* **Dataset:** [Cardiovascular Disease dataset]
+* **Dataset:** Cardiovascular Disease Dataset  
+* **Fonte:** https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset  
 * **Link para os Dados:** [COLE_AQUI_O_LINK_DO_SEU_DRIVE]
-* **Origem:** Dados reais de exames médicos (70.000 registros).
-* **Variáveis Relevantes:** * **Pressão Sistólica/Diastólica:** Essencial para classificar o grau de hipertensão.
-    * **Colesterol e Glicose:** Marcadores biológicos que potencializam o risco cardiovascular.
+
+* **Origem:** Dataset público contendo aproximadamente **70.000 registros clínicos de pacientes**.
+
+### Variáveis Relevantes
+* **Pressão Sistólica/Diastólica (ap_hi / ap_lo):** essencial para classificação da hipertensão.
+* **Colesterol:** marcador biológico associado ao risco cardiovascular.
+* **Glicose:** indicador importante para doenças metabólicas relacionadas ao sistema cardiovascular.
+* **Idade e Sexo:** variáveis demográficas relevantes na avaliação de risco.
+* **Peso e Altura:** utilizados para cálculo de IMC.
+* **Tabagismo, Consumo de Álcool e Atividade Física:** fatores comportamentais que influenciam diretamente no risco cardiovascular.
+
 * **Justificativa para IA:** Estes dados permitem o treinamento de modelos de classificação binária para prever a presença de doenças cardiovasculares com base em biometria e exames laboratoriais.
 
 ---
 
 ## 📑 2. Dados Textuais (NLP)
-Simulação de prontuários médicos e relatos de pacientes para estruturação de dados não estruturados.
+Simulação de prontuários médicos para estruturação de dados não estruturados.
 
-* **Arquivos:** Disponíveis na pasta `/docss` deste repositório.
-* **Fontes:** Dados fictícios criados pelo grupo para simular o fluxo de triagem hospitalar.
-* **Análises de NLP:**
-    * **Extração de Entidades Nomeadas (NER):** Para identificar automaticamente sintomas (ex: palpitação, tontura) e histórico de comorbidades nos relatos.
-    * **Análise de Sentimento e Urgência:** Para classificar a prioridade do atendimento com base na gravidade dos sintomas descritos.
-* **Justificativa para IA:** O processamento de linguagem natural permite transformar relatos informais em dados estruturados, agilizando o preenchimento de prontuários e a triagem prioritária na rede de saúde.
+* **Arquivos:** Disponíveis na pasta `/docs` deste repositório.
+* **Fontes:** Dados simulados baseados em diretrizes médicas sobre hipertensão arterial.
+
+### Fontes Científicas Utilizadas
+- http://www.scielo.br/j/abc/a/BXT7Vk4B9VKQnJFsJhgJ4Hn/?lang=pt  
+- https://bvsms.saude.gov.br/bvs/publicacoes/linha_cuidado_adulto_hipertens%C3%A3o_arterial.pdf  
+- https://www.scielo.br/j/abc/a/f6qfTvNPNTWSXnTYVQszRLs/?format=pdf&lang=pt  
+- https://docs.bvsalud.org/biblioref/2018/03/881441/rbh-v21n1_3-12.pdf  
+- https://www.scielo.br/j/csc/a/S3rGV7YyJgStLFgcBQxjkfK/?format=pdf&lang=pt  
+- https://docs.bvsalud.org/biblioref/2018/03/881411/rbh-v21n2_75-82.pdf  
+
+### Análises de NLP
+* **Extração de Entidades Nomeadas (NER):** identificação automática de sintomas, pressão arterial e fatores de risco.
+* **Classificação Clínica:** identificação de pacientes com suspeita de hipertensão.
+* **Extração de Sintomas:** reconhecimento de termos como cefaleia, tontura e palpitações.
+* **Estruturação de Prontuários:** conversão de registros clínicos em dados estruturados.
+
+* **Justificativa para IA:** O processamento de linguagem natural permite transformar relatos clínicos em dados estruturados, auxiliando na triagem hospitalar.
 
 ---
 
