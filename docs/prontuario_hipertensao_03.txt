@@ -1,0 +1,27 @@
+Registro Clínico
+
+Paciente: 47 anos, sexo masculino.
+Altura: 175 cm
+Peso: 74 kg
+
+Sinais vitais:
+PA: 142x90 mmHg
+FC: 80 bpm
+
+Queixa principal: pressão arterial elevada detectada em exame ocupacional.
+
+História clínica:
+Paciente nega sintomas significativos no momento da consulta, referindo apenas cefaleia leve ocasional.
+
+Fatores de risco:
+Colesterol dentro da faixa normal.
+Glicemia normal.
+Nega tabagismo.
+Nega consumo frequente de álcool.
+Relata prática regular de caminhada quatro vezes por semana.
+
+Avaliação clínica:
+Paciente com níveis pressóricos limítrofes e necessidade de monitoramento para possível diagnóstico de hipertensão arterial.
+
+Conduta:
+Orientado quanto à manutenção de hábitos saudáveis e acompanhamento periódico da pressão arterial.

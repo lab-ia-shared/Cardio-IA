@@ -1,0 +1,27 @@
+Registro Clínico
+
+Paciente: 55 anos, sexo masculino.
+Altura: 168 cm
+Peso: 82 kg
+
+Sinais vitais:
+PA: 160x100 mmHg
+FC: 86 bpm
+
+Queixa principal: cefaleia matinal e tontura ocasional.
+
+História clínica:
+Paciente relata diagnóstico prévio de hipertensão arterial sistêmica há aproximadamente 5 anos, com baixa adesão ao tratamento medicamentoso.
+
+Fatores de risco:
+Colesterol elevado em exames recentes.
+Glicemia dentro da normalidade.
+Tabagista ativo.
+Consumo ocasional de álcool.
+Sedentarismo, sem prática regular de atividade física.
+
+Avaliação clínica:
+Paciente apresenta pressão arterial elevada compatível com hipertensão arterial não controlada e risco cardiovascular aumentado.
+
+Conduta:
+Orientado quanto à redução do consumo de sal, cessação do tabagismo, controle do peso e monitoramento regular da pressão arterial.

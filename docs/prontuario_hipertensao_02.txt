@@ -1,0 +1,27 @@
+Registro Clínico
+
+Paciente: 63 anos, sexo feminino.
+Altura: 156 cm
+Peso: 78 kg
+
+Sinais vitais:
+PA: 150x95 mmHg
+FC: 90 bpm
+
+Queixa principal: fadiga aos esforços e palpitações ocasionais.
+
+História clínica:
+Paciente com diagnóstico de hipertensão arterial sistêmica há cerca de 10 anos. Relata uso irregular de medicação anti-hipertensiva.
+
+Fatores de risco:
+Colesterol elevado.
+Glicemia elevada em exames anteriores.
+Nega tabagismo.
+Refere consumo ocasional de álcool.
+Baixo nível de atividade física.
+
+Avaliação clínica:
+Hipertensão arterial sistêmica associada a fatores metabólicos de risco cardiovascular.
+
+Conduta:
+Reforçada a importância da adesão ao tratamento medicamentoso e acompanhamento cardiológico para controle da pressão arterial.
