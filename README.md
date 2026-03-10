@@ -32,7 +32,7 @@ Utilizamos dados clínicos para identificar fatores de risco que antecedem event
 
 * **Dataset:** Cardiovascular Disease Dataset  
 * **Fonte:** https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset  
-* **Link para os Dados:** (Google Drive: dados_numericos)[https://drive.google.com/drive/folders/1CCQaHMffA81alzsbKZdoWiH_j-bZ7pTd?usp=sharing]
+* **Link para os Dados:** [Google Drive: dados_numericos](https://drive.google.com/drive/folders/1CCQaHMffA81alzsbKZdoWiH_j-bZ7pTd?usp=sharing)
 
 * **Origem:** Dataset público contendo aproximadamente **70.000 registros clínicos de pacientes**.
 
@@ -53,7 +53,7 @@ Simulação de prontuários médicos para estruturação de dados não estrutura
 
 * **Arquivos:** Disponíveis na pasta `/docs` deste repositório.
 * **Fontes:** Dados simulados baseados em diretrizes médicas sobre hipertensão arterial.
-* **Link para os Dados:** (Google Drive: dados_textuais)[https://drive.google.com/drive/folders/19qosASiNQtAEJ_rmdV79cak1ijW_uYCS?usp=sharing]
+* **Link para os Dados:** [Google Drive: dados_textuais](https://drive.google.com/drive/folders/19qosASiNQtAEJ_rmdV79cak1ijW_uYCS?usp=sharing)
 
 ### Fontes Científicas Utilizadas
 - http://www.scielo.br/j/abc/a/BXT7Vk4B9VKQnJFsJhgJ4Hn/?lang=pt  
@@ -77,8 +77,8 @@ Simulação de prontuários médicos para estruturação de dados não estrutura
 Análise de exames de imagem para detecção de anomalias estruturais e dimensionais do coração.
 
 * **Dataset:** [Cardiomegaly Disease Prediction (NIH Chest X-ray Subset)](https://www.kaggle.com/datasets/rahimanshu/cardiomegaly-disease-prediction-using-cnn)
-* **Link para as Imagens:** (Google Drive: dados_visuais)[https://drive.google.com/drive/folders/1Kszx-A_djPO3Qvl16BZtZl7vBnXPAhFB?usp=sharing]
-* **Fonte Original:** NIH Clinical Center via Kaggle (Dataset: Cardiomegaly Disease Prediction Using CNN)[https://www.kaggle.com/datasets/rahimanshu/cardiomegaly-disease-prediction-using-cnn]
+* **Link para as Imagens:** [Google Drive: dados_visuais](https://drive.google.com/drive/folders/1Kszx-A_djPO3Qvl16BZtZl7vBnXPAhFB?usp=sharing)
+* **Fonte Original:** NIH Clinical Center via Kaggle
 * **Tipo de Exame:** Raio-X de Tórax (Chest X-ray)
 * **Especificações Técnicas:** Imagens pré-processadas com CLAHE e redimensionadas para $128 \times 128$ pixels
 
