@@ -17,9 +17,10 @@ A organização do repositório segue a estrutura necessária para a gestão de 
 ```text
 Cardio-IA/
 │
-├── docs/                       # Subpasta de ativos (conforme enunciado)
-│   ├── diretriz_hipertensao.txt  # Artigo textual 1 (NLP)
-│   └── protocolo_arritmia.txt    # Artigo textual 2 (NLP)
+├── docs/
+│   ├── prontuario_hipertensao_1.txt    # Artigo textual 1 (NLP)
+│   └── prontuario_hipertensao_2.txt    # Artigo textual 2 (NLP)
+│   └── prontuario_hipertensao_3.txt    # Artigo textual 3 (NLP)
 │
 └── README.md                     # Documentação principal e justificativas
 ````
@@ -31,7 +32,7 @@ Utilizamos dados clínicos para identificar fatores de risco que antecedem event
 
 * **Dataset:** Cardiovascular Disease Dataset  
 * **Fonte:** https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset  
-* **Link para os Dados:** [COLE_AQUI_O_LINK_DO_SEU_DRIVE]
+* **Link para os Dados:** [https://drive.google.com/drive/folders/1CCQaHMffA81alzsbKZdoWiH_j-bZ7pTd?usp=sharing]
 
 * **Origem:** Dataset público contendo aproximadamente **70.000 registros clínicos de pacientes**.
 
@@ -52,7 +53,7 @@ Simulação de prontuários médicos para estruturação de dados não estrutura
 
 * **Arquivos:** Disponíveis na pasta `/docs` deste repositório.
 * **Fontes:** Dados simulados baseados em diretrizes médicas sobre hipertensão arterial.
-* **Link para os Dados:** [COLE_AQUI_O_LINK_DO_SEU_DRIVE]
+* **Link para os Dados:** [https://drive.google.com/drive/folders/19qosASiNQtAEJ_rmdV79cak1ijW_uYCS?usp=sharing]
 
 ### Fontes Científicas Utilizadas
 - http://www.scielo.br/j/abc/a/BXT7Vk4B9VKQnJFsJhgJ4Hn/?lang=pt  
@@ -76,8 +77,9 @@ Simulação de prontuários médicos para estruturação de dados não estrutura
 Análise de exames de imagem para detecção de anomalias estruturais e elétricas.
 
 * **Dataset:** [ECG Images dataset of Cardiac and Abnormal Beats]
-* **Link para as Imagens (Mínimo 100):** [COLE_AQUI_O_LINK_DO_DRIVE]
-* **Tipo de Exame:** Eletrocardiograma (ECG), Raio-X.
+* **Link para as Imagens:** [https://drive.google.com/drive/folders/1Kszx-A_djPO3Qvl16BZtZl7vBnXPAhFB?usp=sharing]
+* **Fonte:** [https://www.kaggle.com/datasets/rahimanshu/cardiomegaly-disease-prediction-using-cnn]
+* **Tipo de Exame:** Raio-X.
 * **Aplicações de VC:**
     * **Detecção de Padrões:** Identificação visual de arritmias (como Fibrilação Atrial) através do formato das ondas.
     * **Reconhecimento de Anomalias:** Filtros para distinguir batimentos normais de batimentos ectópicos.
