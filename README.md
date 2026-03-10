@@ -91,6 +91,17 @@ Análise de exames de imagem para detecção de anomalias estruturais e dimensio
 
 ---
 
-## 🛡️ Governança e Ética
-Este projeto segue os princípios de governança de dados, garantindo que as fontes sejam citadas e os dados utilizados (reais ou simulados) sirvam estritamente para fins acadêmicos, visando a redução de vieses em diagnósticos automatizados.
+## 🛡️ Governança e Ética (Pensamento Crítico sobre Vieses)
+
+Este projeto foi estruturado sob os pilares da Governança de Dados e Ética em IA, reconhecendo que a qualidade do diagnóstico automatizado depende da integridade da base de dados utilizada.
+
+### Análise de Vieses e Limitações:
+* **Viés de Gênero e Idade:** Identificamos que datasets históricos de doenças cardiovasculares podem apresentar sub-representação de mulheres ou grupos etários específicos, o que pode levar a modelos de IA menos precisos para esses perfis. O Grupo 56 compromete-se a monitorar a distribuição demográfica dos dados para mitigar diagnósticos tendenciosos.
+* **Dados Sintéticos vs. Reais:** Reconhecemos que o uso de dados simulados (Parte 2 - NLP) é uma ferramenta valiosa para o desenvolvimento inicial, mas possui limitações em representar a complexidade e a variabilidade linguística de prontuários reais de diferentes regiões.
+* **Qualidade Visual:** O dataset de Raio-X foi processado tecnicamente (CLAHE), porém, entendemos que variações na qualidade técnica do equipamento de imagem (ruído, contraste) podem atuar como um viés tecnológico, afetando a acurácia do cálculo do CTR pela Visão Computacional.
+
+### Compromisso Ético:
+* **Finalidade:** Os dados são utilizados estritamente para fins acadêmicos no contexto do projeto CardioIA.
+* **Transparência:** Todas as fontes originais (Kaggle, NIH, SciELO) foram devidamente citadas, respeitando a proveniência da informação.
+* **Privacidade:** Não foram utilizados dados sensíveis que permitam a identificação individual de pacientes reais, seguindo as boas práticas de proteção de dados.
 ---
